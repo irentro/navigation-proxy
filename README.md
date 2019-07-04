@@ -1,1 +1,1 @@
-# navigation-proxy
+# recommendations-proxy
