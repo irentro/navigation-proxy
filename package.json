@@ -1,0 +1,25 @@
+{
+  "name": "recommendations-proxy",
+  "version": "1.0.0",
+  "description": "rentro-recommendations proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/irentro/recommendations-proxy.git"
+  },
+  "author": "Shane Zhao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/irentro/recommendations-proxy/issues"
+  },
+  "homepage": "https://github.com/irentro/recommendations-proxy#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.15.0",
+    "nodemon": "^1.19.1",
+    "http-proxy": "^1.17.0"
+  }
+}
