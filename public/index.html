@@ -2,10 +2,26 @@
   <head>
     <title>Rentro</title>
     <link rel="shortcut icon" href="#" />
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="app"></div>
-    <script src="http://localhost:4001/app1/bundle.js"></script>
+    <img class="nav" src="https://rentro-screenshots.s3-us-west-1.amazonaws.com/Airbnb-Nav.jpg">
+
+    <img class="gallery" src="https://rentro-screenshots.s3-us-west-1.amazonaws.com/Airbnb-Gallery.jpg">
+
+    <div class="bodyContainer">
+      <div class="container">
+        <div class="containerLeft">
+          <img class="imgDescription" src="https://rentro-screenshots.s3-us-west-1.amazonaws.com/Airbnb-Description.jpg">
+        </div>
+        <div class="containerRight">
+          <div class="reservations" id="Reservations"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+    <div id="recommendations"></div>
+    <script src="https://reservations-bundle.s3-us-west-1.amazonaws.com/bundle.js"></script>
+    <script src="https://rentro-recommendations-bundle.s3-us-west-1.amazonaws.com/bundle.js"></script>
   </body>
 </html>
