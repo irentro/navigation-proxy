@@ -1,5 +1,8 @@
 body {
-  margin: 0
+  width: 100vw;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap
 }
 
 .nav {
@@ -17,20 +20,14 @@ body {
 
 .container {
   width: 1080px;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   padding-left: 40px;
-  margin-top: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  /* width: 50%; */
+  margin: auto;
   display: flex;
 }
 
-/* .bodyContainer {
+.bodyContainer {
   display: flex
-} */
+}
 
 .containerLeft {
   padding-right: 70px;
@@ -46,10 +43,7 @@ body {
   margin-bottom: 50px;
 }
 
-#Reservations {
-  width: 100%
-}
-
 .reservations {
+  width: 100%;
   width: 375px;
 }
